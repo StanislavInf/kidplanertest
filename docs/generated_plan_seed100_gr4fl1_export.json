@@ -1,0 +1,2191 @@
+{
+  "schema_version": "0.5",
+  "exported_at": "2026-05-24T11:12:48.0000000Z",
+  "project": {
+    "project_id": "generated-100",
+    "model_id": "gen-4gr-100",
+    "source_file": "generated_plan_seed100.rvt",
+    "units": {
+      "length": "m",
+      "area": "m2"
+    }
+  },
+  "phase": {
+    "phase_id": "1",
+    "phase_name": "Новая конструкция"
+  },
+  "levels": [
+    {
+      "level_id": "level-000100",
+      "level_name": "Этаж 1",
+      "elevation_m": 0.0,
+      "rooms": [
+        {
+          "room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "room_element_id": 300000,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Коридор 100",
+          "number_raw": "100",
+          "department_raw": "МОП",
+          "comments_raw": "",
+          "room_type_id": "CORRIDOR",
+          "functional_block": "МОП",
+          "area_m2": 694.0804,
+          "perimeter_m": 108.7068,
+          "location": {
+            "x": 48.0765,
+            "y": 10.2532
+          },
+          "bbox": {
+            "minx": 31.153,
+            "miny": 0.0,
+            "maxx": 65.0,
+            "maxy": 20.5064
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 33.847,
+                  "start": {
+                    "x": 31.153,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 65.0,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 20.5064,
+                  "start": {
+                    "x": 65.0,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 65.0,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 33.847,
+                  "start": {
+                    "x": 65.0,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 20.5064,
+                  "start": {
+                    "x": 31.153,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "0e10f5ae-a1a9-414e-a5f1-fa6178e4fb71",
+          "room_element_id": 300001,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Коридор 101",
+          "number_raw": "101",
+          "department_raw": "МОП",
+          "comments_raw": "",
+          "room_type_id": "CORRIDOR",
+          "functional_block": "МОП",
+          "area_m2": 568.7082,
+          "perimeter_m": 102.4976,
+          "location": {
+            "x": 8.1244,
+            "y": 17.5
+          },
+          "bbox": {
+            "minx": 0.0,
+            "miny": 0.0,
+            "maxx": 16.2488,
+            "maxy": 35.0
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 16.2488,
+                  "start": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 35.0,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 16.2488,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 0.0,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 35.0,
+                  "start": {
+                    "x": 0.0,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 0.0,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "08627519-90dd-437b-aa77-a25cc7b34f51",
+          "room_element_id": 300002,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Физкультурный зал 102",
+          "number_raw": "102",
+          "department_raw": "Зал",
+          "comments_raw": "",
+          "room_type_id": "HALL_SPORT",
+          "functional_block": "Зал",
+          "area_m2": 259.3393,
+          "perimeter_m": 64.6092,
+          "location": {
+            "x": 23.7009,
+            "y": 26.2998
+          },
+          "bbox": {
+            "minx": 16.2488,
+            "miny": 17.5996,
+            "maxx": 31.153,
+            "maxy": 35.0
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 14.9042,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 17.5996
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 17.5996
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 17.4004,
+                  "start": {
+                    "x": 31.153,
+                    "y": 17.5996
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 14.9042,
+                  "start": {
+                    "x": 31.153,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 17.4004,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 17.5996
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "d8895c8f-8e14-437f-9770-d3ccd1c88eed",
+          "room_element_id": 300003,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Игровая 103",
+          "number_raw": "103",
+          "department_raw": "Групповая ячейка",
+          "comments_raw": "",
+          "room_type_id": "GRP_PLAY",
+          "functional_block": "Групповая ячейка",
+          "area_m2": 159.1924,
+          "perimeter_m": 50.9545,
+          "location": {
+            "x": 59.5082,
+            "y": 27.7532
+          },
+          "bbox": {
+            "minx": 54.0164,
+            "miny": 20.5064,
+            "maxx": 65.0,
+            "maxy": 35.0
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 10.9836,
+                  "start": {
+                    "x": 54.0164,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 65.0,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 14.4936,
+                  "start": {
+                    "x": 65.0,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 65.0,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 10.9836,
+                  "start": {
+                    "x": 65.0,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 54.0164,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 14.4936,
+                  "start": {
+                    "x": 54.0164,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 54.0164,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "6c358ec1-8384-4025-ae16-610a1b0079dd",
+          "room_element_id": 300004,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Музыкальный зал 104",
+          "number_raw": "104",
+          "department_raw": "Зал",
+          "comments_raw": "",
+          "room_type_id": "HALL_MUSIC",
+          "functional_block": "Зал",
+          "area_m2": 128.1972,
+          "perimeter_m": 47.0112,
+          "location": {
+            "x": 23.7009,
+            "y": 13.2989
+          },
+          "bbox": {
+            "minx": 16.2488,
+            "miny": 8.9982,
+            "maxx": 31.153,
+            "maxy": 17.5996
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 14.9042,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 8.9982
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 8.9982
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 8.6014,
+                  "start": {
+                    "x": 31.153,
+                    "y": 8.9982
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 17.5996
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 14.9042,
+                  "start": {
+                    "x": 31.153,
+                    "y": 17.5996
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 17.5996
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 8.6014,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 17.5996
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 8.9982
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "9cd1b12d-d820-40c3-89b7-8fa0fb0d4de7",
+          "room_element_id": 300005,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Игровая 105",
+          "number_raw": "105",
+          "department_raw": "Групповая ячейка",
+          "comments_raw": "",
+          "room_type_id": "GRP_PLAY",
+          "functional_block": "Групповая ячейка",
+          "area_m2": 109.8275,
+          "perimeter_m": 42.1467,
+          "location": {
+            "x": 36.9677,
+            "y": 30.278
+          },
+          "bbox": {
+            "minx": 31.153,
+            "miny": 25.556,
+            "maxx": 42.7823,
+            "maxy": 35.0
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 11.6293,
+                  "start": {
+                    "x": 31.153,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 42.7823,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 9.444,
+                  "start": {
+                    "x": 42.7823,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 42.7823,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 11.6293,
+                  "start": {
+                    "x": 42.7823,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 9.444,
+                  "start": {
+                    "x": 31.153,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "dbb22250-6e92-419b-9edf-e07c56450005",
+          "room_element_id": 300006,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Игровая 106",
+          "number_raw": "106",
+          "department_raw": "Групповая ячейка",
+          "comments_raw": "",
+          "room_type_id": "GRP_PLAY",
+          "functional_block": "Групповая ячейка",
+          "area_m2": 92.9562,
+          "perimeter_m": 41.8144,
+          "location": {
+            "x": 45.9891,
+            "y": 27.7532
+          },
+          "bbox": {
+            "minx": 42.7823,
+            "miny": 20.5064,
+            "maxx": 49.196,
+            "maxy": 35.0
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 6.4136,
+                  "start": {
+                    "x": 42.7823,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 49.196,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 14.4936,
+                  "start": {
+                    "x": 49.196,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 49.196,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 6.4136,
+                  "start": {
+                    "x": 49.196,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 42.7823,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 14.4936,
+                  "start": {
+                    "x": 42.7823,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 42.7823,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "049c22fa-9b2a-4ca7-b456-4fde661686b2",
+          "room_element_id": 300007,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Игровая 107",
+          "number_raw": "107",
+          "department_raw": "Групповая ячейка",
+          "comments_raw": "",
+          "room_type_id": "GRP_PLAY",
+          "functional_block": "Групповая ячейка",
+          "area_m2": 67.937,
+          "perimeter_m": 33.0965,
+          "location": {
+            "x": 27.378,
+            "y": 4.4991
+          },
+          "bbox": {
+            "minx": 23.6029,
+            "miny": 0.0,
+            "maxx": 31.153,
+            "maxy": 8.9982
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 7.5501,
+                  "start": {
+                    "x": 23.6029,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 8.9982,
+                  "start": {
+                    "x": 31.153,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 8.9982
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 7.5501,
+                  "start": {
+                    "x": 31.153,
+                    "y": 8.9982
+                  },
+                  "end": {
+                    "x": 23.6029,
+                    "y": 8.9982
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 8.9982,
+                  "start": {
+                    "x": 23.6029,
+                    "y": 8.9982
+                  },
+                  "end": {
+                    "x": 23.6029,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "fb216a70-ad33-4241-906d-4de109b7b5f1",
+          "room_element_id": 300008,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Пищеблок 108",
+          "number_raw": "108",
+          "department_raw": "Пищеблок",
+          "comments_raw": "",
+          "room_type_id": "KITCH_MAIN",
+          "functional_block": "Пищеблок",
+          "area_m2": 66.1735,
+          "perimeter_m": 32.7046,
+          "location": {
+            "x": 19.9259,
+            "y": 4.4991
+          },
+          "bbox": {
+            "minx": 16.2488,
+            "miny": 0.0,
+            "maxx": 23.6029,
+            "maxy": 8.9982
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 7.3541,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 23.6029,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 8.9982,
+                  "start": {
+                    "x": 23.6029,
+                    "y": 0.0
+                  },
+                  "end": {
+                    "x": 23.6029,
+                    "y": 8.9982
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 7.3541,
+                  "start": {
+                    "x": 23.6029,
+                    "y": 8.9982
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 8.9982
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 8.9982,
+                  "start": {
+                    "x": 16.2488,
+                    "y": 8.9982
+                  },
+                  "end": {
+                    "x": 16.2488,
+                    "y": 0.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "4a85b7fb-6c87-4948-bbe2-3d8b31b8ed41",
+          "room_element_id": 300009,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Венткамера 109",
+          "number_raw": "109",
+          "department_raw": "Инженерия",
+          "comments_raw": "",
+          "room_type_id": "VENT_ROOM",
+          "functional_block": "Инженерия",
+          "area_m2": 43.5167,
+          "perimeter_m": 27.696,
+          "location": {
+            "x": 51.6062,
+            "y": 30.4862
+          },
+          "bbox": {
+            "minx": 49.196,
+            "miny": 25.9724,
+            "maxx": 54.0164,
+            "maxy": 35.0
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 4.8204,
+                  "start": {
+                    "x": 49.196,
+                    "y": 25.9724
+                  },
+                  "end": {
+                    "x": 54.0164,
+                    "y": 25.9724
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 9.0276,
+                  "start": {
+                    "x": 54.0164,
+                    "y": 25.9724
+                  },
+                  "end": {
+                    "x": 54.0164,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 4.8204,
+                  "start": {
+                    "x": 54.0164,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 49.196,
+                    "y": 35.0
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 9.0276,
+                  "start": {
+                    "x": 49.196,
+                    "y": 35.0
+                  },
+                  "end": {
+                    "x": 49.196,
+                    "y": 25.9724
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "ccc95906-c7f2-4069-862e-6497447a5e87",
+          "room_element_id": 300010,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Раздевальная 110",
+          "number_raw": "110",
+          "department_raw": "Групповая ячейка",
+          "comments_raw": "",
+          "room_type_id": "GRP_DRESS",
+          "functional_block": "Групповая ячейка",
+          "area_m2": 27.1216,
+          "perimeter_m": 20.8413,
+          "location": {
+            "x": 40.0968,
+            "y": 23.0312
+          },
+          "bbox": {
+            "minx": 37.4113,
+            "miny": 20.5064,
+            "maxx": 42.7823,
+            "maxy": 25.556
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 5.3711,
+                  "start": {
+                    "x": 37.4113,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 42.7823,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.0496,
+                  "start": {
+                    "x": 42.7823,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 42.7823,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.3711,
+                  "start": {
+                    "x": 42.7823,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 37.4113,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.0496,
+                  "start": {
+                    "x": 37.4113,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 37.4113,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "40b0b48e-96ee-4dd8-8149-ca578d4ae8c7",
+          "room_element_id": 300011,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Раздевальная 111",
+          "number_raw": "111",
+          "department_raw": "Групповая ячейка",
+          "comments_raw": "",
+          "room_type_id": "GRP_DRESS",
+          "functional_block": "Групповая ячейка",
+          "area_m2": 26.3483,
+          "perimeter_m": 20.5728,
+          "location": {
+            "x": 51.6062,
+            "y": 23.2394
+          },
+          "bbox": {
+            "minx": 49.196,
+            "miny": 20.5064,
+            "maxx": 54.0164,
+            "maxy": 25.9724
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 4.8204,
+                  "start": {
+                    "x": 49.196,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 54.0164,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.466,
+                  "start": {
+                    "x": 54.0164,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 54.0164,
+                    "y": 25.9724
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 4.8204,
+                  "start": {
+                    "x": 54.0164,
+                    "y": 25.9724
+                  },
+                  "end": {
+                    "x": 49.196,
+                    "y": 25.9724
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.466,
+                  "start": {
+                    "x": 49.196,
+                    "y": 25.9724
+                  },
+                  "end": {
+                    "x": 49.196,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "1d922d9c-ae49-409f-ae5e-b3e2a6d7cd75",
+          "room_element_id": 300012,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Постирочная 112",
+          "number_raw": "112",
+          "department_raw": "Хозяйство",
+          "comments_raw": "",
+          "room_type_id": "LAUND_WASH",
+          "functional_block": "Хозяйство",
+          "area_m2": 18.2044,
+          "perimeter_m": 17.3094,
+          "location": {
+            "x": 35.6087,
+            "y": 23.0312
+          },
+          "bbox": {
+            "minx": 33.8062,
+            "miny": 20.5064,
+            "maxx": 37.4113,
+            "maxy": 25.556
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 3.6051,
+                  "start": {
+                    "x": 33.8062,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 37.4113,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.0496,
+                  "start": {
+                    "x": 37.4113,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 37.4113,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 3.6051,
+                  "start": {
+                    "x": 37.4113,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 33.8062,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.0496,
+                  "start": {
+                    "x": 33.8062,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 33.8062,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        },
+        {
+          "room_uid": "e3416591-9542-45d7-835f-e42f3da48fbc",
+          "room_element_id": 300013,
+          "level_id": "level-000100",
+          "level_name": "Этаж 1",
+          "name_raw": "Медкабинет 113",
+          "number_raw": "113",
+          "department_raw": "Медицина",
+          "comments_raw": "",
+          "room_type_id": "MED_OFFICE",
+          "functional_block": "Медицина",
+          "area_m2": 13.3973,
+          "perimeter_m": 15.4055,
+          "location": {
+            "x": 32.4796,
+            "y": 23.0312
+          },
+          "bbox": {
+            "minx": 31.153,
+            "miny": 20.5064,
+            "maxx": 33.8062,
+            "maxy": 25.556
+          },
+          "boundary_loops": [
+            {
+              "segments": [
+                {
+                  "curve_type": "line",
+                  "length_m": 2.6532,
+                  "start": {
+                    "x": 31.153,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 33.8062,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.0496,
+                  "start": {
+                    "x": 33.8062,
+                    "y": 20.5064
+                  },
+                  "end": {
+                    "x": 33.8062,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 2.6532,
+                  "start": {
+                    "x": 33.8062,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 25.556
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                },
+                {
+                  "curve_type": "line",
+                  "length_m": 5.0496,
+                  "start": {
+                    "x": 31.153,
+                    "y": 25.556
+                  },
+                  "end": {
+                    "x": 31.153,
+                    "y": 20.5064
+                  },
+                  "host_element_id": null,
+                  "host_is_exterior_wall": false
+                }
+              ]
+            }
+          ],
+          "qc_flags": {
+            "not_enclosed": false,
+            "unplaced": false,
+            "area_zero": false,
+            "unmapped": false
+          }
+        }
+      ],
+      "doors": [
+        {
+          "door_uid": "gen-door-00000",
+          "door_element_id": 200000,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "08627519-90dd-437b-aa77-a25cc7b34f51",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 31.153,
+            "y": 19.053
+          }
+        },
+        {
+          "door_uid": "gen-door-00001",
+          "door_element_id": 200001,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "d8895c8f-8e14-437f-9770-d3ccd1c88eed",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 59.5082,
+            "y": 20.5064
+          }
+        },
+        {
+          "door_uid": "gen-door-00002",
+          "door_element_id": 200002,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "6c358ec1-8384-4025-ae16-610a1b0079dd",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 31.153,
+            "y": 13.2989
+          }
+        },
+        {
+          "door_uid": "gen-door-00003",
+          "door_element_id": 200003,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "dbb22250-6e92-419b-9edf-e07c56450005",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 45.9891,
+            "y": 20.5064
+          }
+        },
+        {
+          "door_uid": "gen-door-00004",
+          "door_element_id": 200004,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "049c22fa-9b2a-4ca7-b456-4fde661686b2",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 31.153,
+            "y": 4.4991
+          }
+        },
+        {
+          "door_uid": "gen-door-00005",
+          "door_element_id": 200005,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "ccc95906-c7f2-4069-862e-6497447a5e87",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 40.0968,
+            "y": 20.5064
+          }
+        },
+        {
+          "door_uid": "gen-door-00006",
+          "door_element_id": 200006,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "40b0b48e-96ee-4dd8-8149-ca578d4ae8c7",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 51.6062,
+            "y": 20.5064
+          }
+        },
+        {
+          "door_uid": "gen-door-00007",
+          "door_element_id": 200007,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "1d922d9c-ae49-409f-ae5e-b3e2a6d7cd75",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 35.6087,
+            "y": 20.5064
+          }
+        },
+        {
+          "door_uid": "gen-door-00008",
+          "door_element_id": 200008,
+          "from_room_uid": "7dce253e-7d90-4aba-a6ae-ae1cd072b6e9",
+          "to_room_uid": "e3416591-9542-45d7-835f-e42f3da48fbc",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 32.4796,
+            "y": 20.5064
+          }
+        },
+        {
+          "door_uid": "gen-door-00009",
+          "door_element_id": 200009,
+          "from_room_uid": "0e10f5ae-a1a9-414e-a5f1-fa6178e4fb71",
+          "to_room_uid": "08627519-90dd-437b-aa77-a25cc7b34f51",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 16.2488,
+            "y": 26.2998
+          }
+        },
+        {
+          "door_uid": "gen-door-00010",
+          "door_element_id": 200010,
+          "from_room_uid": "0e10f5ae-a1a9-414e-a5f1-fa6178e4fb71",
+          "to_room_uid": "6c358ec1-8384-4025-ae16-610a1b0079dd",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 16.2488,
+            "y": 13.2989
+          }
+        },
+        {
+          "door_uid": "gen-door-00011",
+          "door_element_id": 200011,
+          "from_room_uid": "0e10f5ae-a1a9-414e-a5f1-fa6178e4fb71",
+          "to_room_uid": "fb216a70-ad33-4241-906d-4de109b7b5f1",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 16.2488,
+            "y": 4.4991
+          }
+        },
+        {
+          "door_uid": "gen-door-00012",
+          "door_element_id": 200012,
+          "from_room_uid": "08627519-90dd-437b-aa77-a25cc7b34f51",
+          "to_room_uid": "6c358ec1-8384-4025-ae16-610a1b0079dd",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 23.7009,
+            "y": 17.5996
+          }
+        },
+        {
+          "door_uid": "gen-door-00013",
+          "door_element_id": 200013,
+          "from_room_uid": "08627519-90dd-437b-aa77-a25cc7b34f51",
+          "to_room_uid": "9cd1b12d-d820-40c3-89b7-8fa0fb0d4de7",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 31.153,
+            "y": 30.278
+          }
+        },
+        {
+          "door_uid": "gen-door-00014",
+          "door_element_id": 200014,
+          "from_room_uid": "08627519-90dd-437b-aa77-a25cc7b34f51",
+          "to_room_uid": "e3416591-9542-45d7-835f-e42f3da48fbc",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 31.153,
+            "y": 23.0312
+          }
+        },
+        {
+          "door_uid": "gen-door-00015",
+          "door_element_id": 200015,
+          "from_room_uid": "d8895c8f-8e14-437f-9770-d3ccd1c88eed",
+          "to_room_uid": "40b0b48e-96ee-4dd8-8149-ca578d4ae8c7",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 54.0164,
+            "y": 23.2394
+          }
+        },
+        {
+          "door_uid": "gen-door-00016",
+          "door_element_id": 200016,
+          "from_room_uid": "d8895c8f-8e14-437f-9770-d3ccd1c88eed",
+          "to_room_uid": "4a85b7fb-6c87-4948-bbe2-3d8b31b8ed41",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 54.0164,
+            "y": 30.4862
+          }
+        },
+        {
+          "door_uid": "gen-door-00017",
+          "door_element_id": 200017,
+          "from_room_uid": "6c358ec1-8384-4025-ae16-610a1b0079dd",
+          "to_room_uid": "049c22fa-9b2a-4ca7-b456-4fde661686b2",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 27.378,
+            "y": 8.9982
+          }
+        },
+        {
+          "door_uid": "gen-door-00018",
+          "door_element_id": 200018,
+          "from_room_uid": "6c358ec1-8384-4025-ae16-610a1b0079dd",
+          "to_room_uid": "fb216a70-ad33-4241-906d-4de109b7b5f1",
+          "width_mm": 1600,
+          "is_exterior": false,
+          "location": {
+            "x": 19.9259,
+            "y": 8.9982
+          }
+        },
+        {
+          "door_uid": "gen-door-00019",
+          "door_element_id": 200019,
+          "from_room_uid": "9cd1b12d-d820-40c3-89b7-8fa0fb0d4de7",
+          "to_room_uid": "ccc95906-c7f2-4069-862e-6497447a5e87",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 40.0968,
+            "y": 25.556
+          }
+        },
+        {
+          "door_uid": "gen-door-00020",
+          "door_element_id": 200020,
+          "from_room_uid": "9cd1b12d-d820-40c3-89b7-8fa0fb0d4de7",
+          "to_room_uid": "dbb22250-6e92-419b-9edf-e07c56450005",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 42.7823,
+            "y": 30.278
+          }
+        },
+        {
+          "door_uid": "gen-door-00021",
+          "door_element_id": 200021,
+          "from_room_uid": "9cd1b12d-d820-40c3-89b7-8fa0fb0d4de7",
+          "to_room_uid": "1d922d9c-ae49-409f-ae5e-b3e2a6d7cd75",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 35.6087,
+            "y": 25.556
+          }
+        },
+        {
+          "door_uid": "gen-door-00022",
+          "door_element_id": 200022,
+          "from_room_uid": "9cd1b12d-d820-40c3-89b7-8fa0fb0d4de7",
+          "to_room_uid": "e3416591-9542-45d7-835f-e42f3da48fbc",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 32.4796,
+            "y": 25.556
+          }
+        },
+        {
+          "door_uid": "gen-door-00023",
+          "door_element_id": 200023,
+          "from_room_uid": "dbb22250-6e92-419b-9edf-e07c56450005",
+          "to_room_uid": "ccc95906-c7f2-4069-862e-6497447a5e87",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 42.7823,
+            "y": 23.0312
+          }
+        },
+        {
+          "door_uid": "gen-door-00024",
+          "door_element_id": 200024,
+          "from_room_uid": "dbb22250-6e92-419b-9edf-e07c56450005",
+          "to_room_uid": "40b0b48e-96ee-4dd8-8149-ca578d4ae8c7",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 49.196,
+            "y": 23.2394
+          }
+        },
+        {
+          "door_uid": "gen-door-00025",
+          "door_element_id": 200025,
+          "from_room_uid": "dbb22250-6e92-419b-9edf-e07c56450005",
+          "to_room_uid": "4a85b7fb-6c87-4948-bbe2-3d8b31b8ed41",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 49.196,
+            "y": 30.4862
+          }
+        },
+        {
+          "door_uid": "gen-door-00026",
+          "door_element_id": 200026,
+          "from_room_uid": "049c22fa-9b2a-4ca7-b456-4fde661686b2",
+          "to_room_uid": "fb216a70-ad33-4241-906d-4de109b7b5f1",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 23.6029,
+            "y": 4.4991
+          }
+        },
+        {
+          "door_uid": "gen-door-00027",
+          "door_element_id": 200027,
+          "from_room_uid": "4a85b7fb-6c87-4948-bbe2-3d8b31b8ed41",
+          "to_room_uid": "40b0b48e-96ee-4dd8-8149-ca578d4ae8c7",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 51.6062,
+            "y": 25.9724
+          }
+        },
+        {
+          "door_uid": "gen-door-00028",
+          "door_element_id": 200028,
+          "from_room_uid": "ccc95906-c7f2-4069-862e-6497447a5e87",
+          "to_room_uid": "1d922d9c-ae49-409f-ae5e-b3e2a6d7cd75",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 37.4113,
+            "y": 23.0312
+          }
+        },
+        {
+          "door_uid": "gen-door-00029",
+          "door_element_id": 200029,
+          "from_room_uid": "1d922d9c-ae49-409f-ae5e-b3e2a6d7cd75",
+          "to_room_uid": "e3416591-9542-45d7-835f-e42f3da48fbc",
+          "width_mm": 1000,
+          "is_exterior": false,
+          "location": {
+            "x": 33.8062,
+            "y": 23.0312
+          }
+        }
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "wall_element_id": 100000,
+      "is_exterior": true,
+      "function_raw": "Exterior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 65.0,
+        "y": 0.0
+      },
+      "length_m": 65.0
+    },
+    {
+      "wall_element_id": 100001,
+      "is_exterior": true,
+      "function_raw": "Exterior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 65.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 65.0,
+        "y": 35.0
+      },
+      "length_m": 35.0
+    },
+    {
+      "wall_element_id": 100002,
+      "is_exterior": true,
+      "function_raw": "Exterior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 65.0,
+        "y": 35.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 35.0
+      },
+      "length_m": 65.0
+    },
+    {
+      "wall_element_id": 100003,
+      "is_exterior": true,
+      "function_raw": "Exterior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 0.0,
+        "y": 35.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "length_m": 35.0
+    },
+    {
+      "wall_element_id": 100004,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 17.5996
+      },
+      "end": {
+        "x": 31.153,
+        "y": 20.5064
+      },
+      "length_m": 2.9068
+    },
+    {
+      "wall_element_id": 100005,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 54.0164,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 65.0,
+        "y": 20.5064
+      },
+      "length_m": 10.9836
+    },
+    {
+      "wall_element_id": 100006,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 8.9982
+      },
+      "end": {
+        "x": 31.153,
+        "y": 17.5996
+      },
+      "length_m": 8.6014
+    },
+    {
+      "wall_element_id": 100007,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 42.7823,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 49.196,
+        "y": 20.5064
+      },
+      "length_m": 6.4136
+    },
+    {
+      "wall_element_id": 100008,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 0.0
+      },
+      "end": {
+        "x": 31.153,
+        "y": 8.9982
+      },
+      "length_m": 8.9982
+    },
+    {
+      "wall_element_id": 100009,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 37.4113,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 42.7823,
+        "y": 20.5064
+      },
+      "length_m": 5.3711
+    },
+    {
+      "wall_element_id": 100010,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 49.196,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 54.0164,
+        "y": 20.5064
+      },
+      "length_m": 4.8204
+    },
+    {
+      "wall_element_id": 100011,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 33.8062,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 37.4113,
+        "y": 20.5064
+      },
+      "length_m": 3.6051
+    },
+    {
+      "wall_element_id": 100012,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 33.8062,
+        "y": 20.5064
+      },
+      "length_m": 2.6532
+    },
+    {
+      "wall_element_id": 100013,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 16.2488,
+        "y": 17.5996
+      },
+      "end": {
+        "x": 16.2488,
+        "y": 35.0
+      },
+      "length_m": 17.4004
+    },
+    {
+      "wall_element_id": 100014,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 16.2488,
+        "y": 8.9982
+      },
+      "end": {
+        "x": 16.2488,
+        "y": 17.5996
+      },
+      "length_m": 8.6014
+    },
+    {
+      "wall_element_id": 100015,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 16.2488,
+        "y": 0.0
+      },
+      "end": {
+        "x": 16.2488,
+        "y": 8.9982
+      },
+      "length_m": 8.9982
+    },
+    {
+      "wall_element_id": 100016,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 16.2488,
+        "y": 17.5996
+      },
+      "end": {
+        "x": 31.153,
+        "y": 17.5996
+      },
+      "length_m": 14.9042
+    },
+    {
+      "wall_element_id": 100017,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 25.556
+      },
+      "end": {
+        "x": 31.153,
+        "y": 35.0
+      },
+      "length_m": 9.444
+    },
+    {
+      "wall_element_id": 100018,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 31.153,
+        "y": 25.556
+      },
+      "length_m": 5.0496
+    },
+    {
+      "wall_element_id": 100019,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 54.0164,
+        "y": 25.9724
+      },
+      "end": {
+        "x": 54.0164,
+        "y": 35.0
+      },
+      "length_m": 9.0276
+    },
+    {
+      "wall_element_id": 100020,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 54.0164,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 54.0164,
+        "y": 25.9724
+      },
+      "length_m": 5.466
+    },
+    {
+      "wall_element_id": 100021,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 23.6029,
+        "y": 8.9982
+      },
+      "end": {
+        "x": 31.153,
+        "y": 8.9982
+      },
+      "length_m": 7.5501
+    },
+    {
+      "wall_element_id": 100022,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 16.2488,
+        "y": 8.9982
+      },
+      "end": {
+        "x": 23.6029,
+        "y": 8.9982
+      },
+      "length_m": 7.3541
+    },
+    {
+      "wall_element_id": 100023,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 42.7823,
+        "y": 25.556
+      },
+      "end": {
+        "x": 42.7823,
+        "y": 35.0
+      },
+      "length_m": 9.444
+    },
+    {
+      "wall_element_id": 100024,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 37.4113,
+        "y": 25.556
+      },
+      "end": {
+        "x": 42.7823,
+        "y": 25.556
+      },
+      "length_m": 5.3711
+    },
+    {
+      "wall_element_id": 100025,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 33.8062,
+        "y": 25.556
+      },
+      "end": {
+        "x": 37.4113,
+        "y": 25.556
+      },
+      "length_m": 3.6051
+    },
+    {
+      "wall_element_id": 100026,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 31.153,
+        "y": 25.556
+      },
+      "end": {
+        "x": 33.8062,
+        "y": 25.556
+      },
+      "length_m": 2.6532
+    },
+    {
+      "wall_element_id": 100027,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 49.196,
+        "y": 25.9724
+      },
+      "end": {
+        "x": 49.196,
+        "y": 35.0
+      },
+      "length_m": 9.0276
+    },
+    {
+      "wall_element_id": 100028,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 42.7823,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 42.7823,
+        "y": 25.556
+      },
+      "length_m": 5.0496
+    },
+    {
+      "wall_element_id": 100029,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 49.196,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 49.196,
+        "y": 25.9724
+      },
+      "length_m": 5.466
+    },
+    {
+      "wall_element_id": 100030,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 23.6029,
+        "y": 0.0
+      },
+      "end": {
+        "x": 23.6029,
+        "y": 8.9982
+      },
+      "length_m": 8.9982
+    },
+    {
+      "wall_element_id": 100031,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 49.196,
+        "y": 25.9724
+      },
+      "end": {
+        "x": 54.0164,
+        "y": 25.9724
+      },
+      "length_m": 4.8204
+    },
+    {
+      "wall_element_id": 100032,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 37.4113,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 37.4113,
+        "y": 25.556
+      },
+      "length_m": 5.0496
+    },
+    {
+      "wall_element_id": 100033,
+      "is_exterior": false,
+      "function_raw": "Interior",
+      "level_id": "level-000100",
+      "start": {
+        "x": 33.8062,
+        "y": 20.5064
+      },
+      "end": {
+        "x": 33.8062,
+        "y": 25.556
+      },
+      "length_m": 5.0496
+    }
+  ],
+  "columns": [],
+  "stairs": [],
+  "elevators": []
+}
